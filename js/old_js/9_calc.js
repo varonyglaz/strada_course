@@ -1,10 +1,12 @@
 console.log('Это калькулятор');
 
+let operations = new Object();
+
 let num1 = prompt('Введите первое число', '');
 let action = prompt('Введите действие', '');
 let num2 = prompt('Введите второе число', '');
 let result;
-// alert(Number(num1));
+
 if (Number(num1) == Number(num1) && Number(num2) == Number(num2)) {
   if (String(action) == '+') {
     alert(calcPlusing(num1, num2));
