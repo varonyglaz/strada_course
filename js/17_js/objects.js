@@ -1,37 +1,3 @@
-// let user = {
-//   name: 'Sergey',
-//   age: 34,
-// };
-
-// console.log();
-// console.log('#####VAR1#####');
-
-// let admin = user;
-
-// admin.name = 'Andrey';
-
-// console.log(admin == user);
-// console.log(user);
-// console.log(admin);
-
-// console.log();
-// console.log('#####VAR2#####');
-
-// let clone = {};
-
-// for (let key in user) {
-//     clone[key] = user[key];
-// }
-
-// console.log(clone);
-// console.log(clone == user);
-
-// let clone2 = {};
-// Object.assign(clone2, [user]);
-
-// console.log(clone2);
-// console.log(clone2 == user);
-
 let user = {
   name: 'Pete',
   age: {
